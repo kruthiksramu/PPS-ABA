@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+void main()
+{
+    float sbc,p;
+    float ar;
+    
+    printf("Enter the load : ");
+    scanf("%f",&p);
+    
+    printf("Enter the SBC of soil : ");
+    scanf("%f",&sbc);
+    
+    ar = p/sbc;
+    
+    printf("Area of foundation = %f sq.m",ar);
+}
